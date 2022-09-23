@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Absolute Neutrophil Count Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- radio -->
+  <input type="radio" id="absoluteneutrophilcountRadio" name="variables" checked>
+  <label for="absoluteneutrophilcountRadio">Absolute neutrophil count</label>
+
+  <input type="radio" id="whitebloodcellsRadio" name="variables">
+  <label for="whitebloodcellsRadio">White blood cells</label>
+
+  <input type="radio" id="neutrophilgranulocytesRadio" name="variables">
+  <label for="neutrophilgranulocytesRadio">Neutrophil granulocytes</label>
+
+  <input type="radio" id="neutrophilicbandformsRadio" name="variables">
+  <label for="neutrophilicbandformsRadio">Neutrophilic band forms</label><br><br>
+  <!-- end radio -->
+  
+  <label for="v1" id="variable1">White blood cells</label>
+  <input type="number" id="v1"><br><br>
+  
+  <label for="v2" id="variable2">Neutrophil granulocytes</label>
+  <input type="number" id="v2"><br><br>
+  
+  <label for="v3" id="variable3">Neutrophilic band forms</label>
+  <input type="number" id="v3"><br><br>
+
+  <button id="btn">compute</button>
+
+  <p id="result"></p>
+  <script src="app.js"></script>
+</body>
+</html>
